@@ -2,9 +2,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
         * {box-sizing: border-box;}
         
         .container {
-          border-radius: 5px;
+          border-radius: 2px;
           background-color: #f2f2f2ce;
-          padding: 20px;
+          padding: 15px;
         }
 
         .row {
@@ -15,19 +15,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
             padding: 5px;
         }
 
-        .container>.row>>.col-md-3>p {
-            float: right;
-            margin: 20px;
-        }
-
-        .container>.row>>.col-lg-4>p {
-            float: right;
-            margin: 20px;
-        }
-        
-        footer {
+        footer>.row {
             text-align: center;
-            background: rgb(31, 31, 31);
+            background-color: rgb(31, 31, 31);
             color: white;
             padding: 23px;
         }
